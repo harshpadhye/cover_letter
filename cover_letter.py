@@ -8,7 +8,7 @@ from mailmerge import MailMerge
 from datetime import date
 from docx2pdf import convert
 
-template = "Harsh Padhye Cover Letter Template.docx"
+template = "cover_letter_template.docx"
 
 document = MailMerge(template)
 
